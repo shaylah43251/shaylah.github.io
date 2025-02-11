@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f5f4;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #050505;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .start-button {
+            padding: 12px 24px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 25px;
+            background-color: #dcf0e0;
+            color: rgb(9, 8, 8);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .start-button:hover {
+            background-color: #218838;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <button class="start-button" onclick="location.href='t1.html'">Start</button>
+</body>
+</html>
